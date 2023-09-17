@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 section {
@@ -52,4 +55,44 @@ section .navigation li img {
 
 section .navigation li img:hover {
   width: 120px;
+}
+
+body div {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  top: 15px;
+}
+
+body div a {
+  margin-left: 20px;
+  color: white;
+  top: 15px;
+  left: 10px;
+  display: inline-block;
+  padding: 12px 25px;
+  text-decoration: none;
+  background: var(--clr);
+  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+body div h6 {
+  margin-right: 30px;
+  color: white;
+  top: 15px;
+  display: inline-block;
+  padding: 12px 25px;
+  text-decoration: none;
+  background: var(--clr);
+  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.9;
 }
