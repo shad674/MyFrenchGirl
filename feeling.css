@@ -83,7 +83,12 @@ body div a {
   opacity: 0.9;
 }
 
+body div a:hover {
+  opacity: 0.7;
+}
+
 body div h6 {
+  cursor: pointer;
   margin-right: 30px;
   color: white;
   top: 15px;
@@ -95,4 +100,8 @@ body div h6 {
   font-size: 1rem;
   font-weight: 700;
   opacity: 0.9;
+}
+
+body div h6:hover {
+  opacity: 0.7;
 }
